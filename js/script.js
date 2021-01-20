@@ -66,3 +66,9 @@ class Post {
 		}
 	}
 }
+
+const twitter = new Twitter({
+	listElem: '.tweet-list'
+});
+
+console.log(twitter);
